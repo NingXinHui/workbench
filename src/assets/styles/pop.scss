@@ -1,0 +1,390 @@
+.el-select-dropdown__item {
+  font-size: 12px !important;
+}
+.img{
+  .el-dialog__header{
+    display: none!important;
+  }
+}
+.preImg{
+  .el-dialog__header{
+    display: none;
+  }
+  img{
+    max-width: 600px;
+    max-height: 600px;
+  }
+}
+
+.popBox {
+  // ::-webkit-scrollbar{
+  //     width: 0px;
+  // }
+  .el-dialog {
+    overflow-y: auto;
+    width: 550px !important;
+    min-width: 550px;
+    min-height: 265px !important;
+    max-height: 604px !important;
+    .el-dialog__body {
+      padding: 0 !important;
+      min-height: 200px
+    }
+
+    .el-dialog__header {
+      height: 30px!important;
+      padding: 5px 12px !important;
+      background: #eaeef4 !important;
+      border-radius: 4px 4px 0 0 !important;
+      line-height: 20px;
+    }
+
+    .el-dialog__title {
+      line-height: 17px !important;
+      font-size: 12px !important;
+    }
+
+    .el-dialog__headerbtn {
+      top: 5px !important;
+      right: 12px !important;
+      color: #909399;
+    }
+
+    .content {
+      overflow-x: hidden;
+      padding: 8px 6px !important;
+      .bill-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .input-item {
+          align-items: center;
+          justify-content: unset;
+          .box {
+            display: flex;
+            div:nth-child(1) {
+              line-height: 28px;
+              width: 85px;
+              text-align: right;
+            }
+          }
+          .el-select {
+            height: auto !important;
+          }
+          flex-basis: 50% !important;
+          margin-bottom: 6px !important;
+          display: flex;
+          span {
+            &:not(.el-checkbox__input,.el-checkbox__inner){
+              // line-height: 28px;
+              font-weight: 400;
+              font-size: 12px;
+              // color: #6F8FAF;
+              text-align: right !important;
+              width: 85px !important;
+              .biTian {
+                color: #ED5751;
+              }
+            }
+            .el-checkbox {
+              margin-right: 12px;
+              .el-checkbox__label {
+                font-size: 12px;
+                padding-left: 8px;
+              }
+              .el-checkbox__inner {
+                width: 11px;
+                height: 11px;
+                &::after {
+                  height: 5px;
+                  left: 3px;
+                }
+              }
+            }
+          }
+          .el-input, .el-select {
+            width: 180px !important;
+          }
+          + .form-textarea {
+            align-items: unset;
+            flex-basis: 100% !important;
+            .el-textarea {
+              flex: 1 !important;
+            }
+          }
+        }
+
+
+
+      }
+      .search {
+        padding: 5px 12px;
+      }
+      .el-tabs__header {
+        padding-left: 12px;
+        .el-tabs__item {
+          font-size: 12px;
+          font-weight: 400;
+          color: #374256;
+          line-height: 26px;
+          height: unset;
+        }
+        .el-tabs__nav-wrap::after {
+          height: 1px;
+          background: #dee6f2;;
+        }
+      }
+      .form:not(.formAudit),.checkBox {
+        .el-icon-date{
+          display: none;
+        }
+
+        display: flex;
+        .el-form,.checkInnerBox {
+          width: 100% !important;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          .el-form-item {
+            margin-right: unset;
+            .el-form-item__content {
+              margin: 0 !important;
+              width: 180px;
+              display: flex;
+              align-items: center;
+            }
+            .is-controls-right{
+              width: 180px;
+            }
+            display: inline-flex;
+            .el-form-item__label {
+              font-weight: bold;
+              font-size: 12px;
+              width: 85px !important;
+              text-align: right;
+              padding-right: 4px !important;
+            }
+            margin-bottom: 6px;
+            flex-basis: 50%;
+            .el-input {
+              width: 180px;
+            }
+          }
+          //表单内textArea控件样式设置
+          .form-textarea {
+            flex-basis: 100% !important;
+            .el-form-item__content {
+              flex: 1 !important;
+            }
+            .el-input{
+              width: 100%;
+            }
+          }
+
+          .form-checkBox {
+            border-radius: 4px;
+            width: 100%;
+            background: #f7f9fd;
+            .form-checkBox-content {
+              display: flex;
+              flex-wrap: wrap;
+              padding: 6px 10px;
+              //修正checkoutBox
+              .el-checkbox {
+                margin-right: 12px;
+                .el-checkbox__label {
+                  font-size: 12px;
+                  padding-left: 8px;
+                }
+                .el-checkbox__inner {
+                  width: 11px;
+                  height: 11px;
+                  &::after {
+                    height: 5px;
+                    left: 3px;
+                  }
+
+                }
+              }
+              .el-form-item {
+                flex-basis: unset;
+                .el-form-item__content {
+                  width: unset;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .table {
+        min-height: 250px;
+        .pagination-container {
+          margin-top: 4px;
+          padding: 0 !important;
+          .el-pagination {
+            padding: 0;
+          }
+          .el-pagination__total, .el-pagination__jump, .el-input__inner {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .dialog-audit {
+      padding: 8px 12px;
+    }
+    .search {
+      padding: 5px 12px;
+    }
+    .el-dialog__footer {
+      background: #FFFFFF;
+      position: sticky;
+      bottom: 8px;
+      padding:0 20px;
+      //padding: 8px 13px 8px;
+      width: 100%;
+      z-index: 999;
+      //overflow: hidden;
+      //height: 34px;
+    }
+    //弹框里的表格
+    .pop-table-box {
+      .pop-table-content {
+        .el-table th, .el-table td {
+          padding: 1px 0 !important;
+          height: 26px;
+        }
+      }
+    }
+  }
+
+  .el-input__inner {
+    font-size: 12px !important;
+    padding-right: 30px;
+    padding-left: 4px;
+
+  }
+  .el-input__suffix{
+    right: 5px!important;
+  }
+  //文本域
+  .el-input__count{
+    height: 20px;
+    bottom: 2px;
+  }
+  .el-textarea__inner{
+    padding: 5px 10px ;
+  }
+  .titleSize {
+    line-height: 17px !important;
+    font-size: 12px !important;
+    color: #6F8FAF !important;
+  }
+  .el-button {
+    font-size: 12px !important;
+    width: 60px !important;
+    height: 26px !important;
+    padding: 0 7px !important;
+    span {
+      font-size: 12px !important;
+    }
+  }
+}
+
+#look-up-box {
+  .el-dialog__header {
+    height: 30px!important;
+    padding: 5px 12px !important;
+    background: #eaeef4 !important;
+    border-radius: 4px 4px 0 0 !important;
+    line-height: 20px;
+  }
+
+  .el-dialog__headerbtn {
+    top: 5px !important;
+    right: 12px !important;
+    color: #909399;
+  }
+
+  .el-dialog__title {
+    line-height: 17px !important;
+    font-size: 12px !important;
+  }
+
+  .el-dialog__body {
+    padding: 0 !important;
+
+    .content {
+      padding: 8px 6px !important;
+    }
+  }
+
+  .el-dialog__footer {
+    padding: 8px 13px 8px;
+  }
+
+  .pop-table-box {
+    .pop-table-content {
+      .el-table th, .el-table td {
+        padding: 1px 0 !important;
+        height: 26px;
+      }
+    }
+  }
+
+  .form {
+    position: relative;
+
+    .el-form-item--mini.el-form-item {
+      margin-bottom: 6px;
+
+      .el-form-item__label {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: right;
+        padding-right: 4px !important;
+      }
+
+      .el-input, .el-select {
+        width: 180px !important;
+      }
+
+      .el-input__inner {
+        padding-left: 4px;
+      }
+    }
+
+    .look-up-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .dialog-footer {
+    .dialog-footer-input {
+      float: left;
+      display: flex;
+      font-size: 12px;
+      align-items: center;
+
+      .dialog-footer-input-box {
+        margin: 0 4px;
+        width: 60px;
+      }
+    }
+  }
+}
+
+
+.searchTable {
+  .el-table__row {
+    td {
+      .el-input__inner {
+        padding: 5px 5px 5px 7px !important;
+      }
+    }
+  }
+}

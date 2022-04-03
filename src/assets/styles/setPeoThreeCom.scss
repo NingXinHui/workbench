@@ -1,0 +1,115 @@
+.setMoreButtonHeadShow{
+  // 上面的按钮  主页面
+  .setheadbutton{
+      .el-button+.el-button{
+          margin-left: 4px;
+      }
+      .el-button--danger{
+          margin-right: 4px;
+      }
+      .el-button--mini{
+          padding: 6px 7px;
+      }
+      .el-button--default{
+          border:1px solid #DEE6F2 !important;
+          color:#374256
+      }
+  }
+  .el-card__body{
+      padding: 8px 8px 12px;
+  }
+  // 下方的搜索 和按钮
+  .setHeadSearchMain{
+      .el-form-item--mini.el-form-item{
+          margin-bottom: 8px;
+          label{
+              font-weight: 400;
+              font-size: 12px;
+          }
+      }
+
+      .el-date-editor{
+          width: 180px !important;
+          input.el-input__inner{
+            border: 1px solid #DEE6F2 !important;
+          }
+
+      }
+      .el-input{
+          width: 180px !important;
+
+      }
+      .el-form-item__label{
+          padding-right: 4px;
+      }
+      .el-input__inner{
+          padding-left: 4px;
+      }
+      .el-date-editor--date .el-input__inner{
+          padding-left: 24px;
+      }
+      .el-input--mini .el-input__inner{
+          height: 26px;
+          line-height: 26px;
+      }
+      .el-button--primary:hover{
+          background-color: #005BE3 !important;
+      }
+      .el-button--primary{
+          border: none !important;
+          background-color: #0066FF !important;
+      }
+      .el-button--default{
+          border:1px solid #DEE6F2 !important;
+          color:#374256
+      }
+
+
+      .el-button--mini{
+          padding: 6px 7px;
+      }
+      .el-button+.el-button{
+          margin-left: 4px;
+          margin-top: 2px;
+      }
+
+  }
+  // 设置的表格
+  .setHeadTableMain{
+      th{
+          font-weight: 400 !important;
+          height: 26px !important;
+          padding: 2px;
+          color:#374256 !important;
+          background-color: #F7F9FD !important;
+
+      }
+      th > .cell{
+          font-weight: 400;
+          padding: 1px;
+      }
+      .el-table--border th, .el-table--border td{
+          border-bottom: 1px solid #DEE6F2;
+          border-right: 1px solid #DEE6F2;
+      }
+      .el-table--border th{
+          border-top:1px solid #DEE6F2 ;
+      }
+      td{
+          color:#374256;
+          a{
+              color:#0066FF !important
+          }
+      }
+      .el-table--mini th, .el-table--mini td{
+          padding: 1px 0 !important;
+      }
+      .el-input__inner{
+          //height: 26px !important;
+          //line-height: 26px !important;
+      }
+
+  }
+
+
+}

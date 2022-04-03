@@ -1,0 +1,10 @@
+version: '3'
+services:
+  textile-saas-web:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: 47.110.145.204:8084/huansiyl/trade-saas/trade-saas-web:latest
+    container_name: textile-saas-web
+    ports:
+      - "8368:80"

@@ -1,0 +1,100 @@
+{
+  "id": "2896932",
+  "name": "织造",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1269",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "145719",
+      "name": "删除_填充",
+      "font_class": "shanchutianchong",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "13972387",
+      "name": "信息完善",
+      "font_class": "xinxiwanshan",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "20623811",
+      "name": "客户条码打印",
+      "font_class": "kehutiaomadayin_huaban1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "375533",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "2076434",
+      "name": "关闭实心",
+      "font_class": "guanbishixin",
+      "unicode": "e8dc",
+      "unicode_decimal": 59612
+    },
+    {
+      "icon_id": "4784080",
+      "name": "查询",
+      "font_class": "chaxun",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "5310758",
+      "name": "取消",
+      "font_class": "quxiao",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "7577307",
+      "name": "24gl-printer",
+      "font_class": "24gl-printer",
+      "unicode": "e9bd",
+      "unicode_decimal": 59837
+    },
+    {
+      "icon_id": "8475422",
+      "name": "不可取消20x20",
+      "font_class": "bukequxiao",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    },
+    {
+      "icon_id": "18547107",
+      "name": "事项登记",
+      "font_class": "shixiangdengji",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "19992248",
+      "name": "保存",
+      "font_class": "baocun",
+      "unicode": "e80f",
+      "unicode_decimal": 59407
+    },
+    {
+      "icon_id": "23042295",
+      "name": "交接",
+      "font_class": "jiaojie",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    }
+  ]
+}

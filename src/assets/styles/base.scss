@@ -1,0 +1,107 @@
+$--color-primary: #0066ff;
+$--color-success: #67c23a;
+$--color-btn-border:#6F8FAF;
+$--color-border:#EAEEF4;
+$--color-title:#333333;
+$--color-header:#374256;
+$--color-table-stripe:#FAFAFA;
+$--color-delete:#ED5751;
+$--color-table-header:#f5f7fa;
+$--color-tab-active:#9ACD32;
+$--color-btn-delete:#FF4749;
+
+.setSearchDialog {
+    position: relative;
+
+    .el-icon-circle-close {
+      margin-right: 15px;
+    }
+
+    .el-button {
+      position: absolute;
+      height: 40px;
+      right: 8px;
+      padding: 8px 0;
+      z-index: 1;
+      cursor: pointer;
+    }
+
+    .el-button.is-disabled {
+      display: none;
+    }
+  }
+
+  .el-collapse-item{
+    box-shadow: 0px 0 15px #eee;
+  }
+.inputClass {
+    display: flex;
+    word-break: break-all;
+    white-space: normal;
+    text-overflow: ellipsis;
+    .inputClass-item, .inputClass-item-2, .inputClass-item-3, .inputClass-item-half {
+      display: flex;
+      .el-select {
+        width: 100%;
+      }
+      .el-form-item__label{
+          color: #354258;
+      }
+      .el-input__inner{
+        border: 1px solid #e9eef5;
+        border-radius: 3px;
+      }
+      .el-input__inner::placeholder,.el-input__inner::-ms-input-placeholder,.el-input__inner::-moz-placeholder{
+          color: #B8C4DD;
+      }
+    }
+    .inputClass-item {
+      flex: 1;
+    }
+    .inputClass-item-2 {
+      flex: 2;
+    }
+    .inputClass-item-3 {
+      flex: 3;
+    }
+    .inputClass-item-half {
+      width: 49%;
+
+      .el-select {
+        display: block;
+      }
+    }
+  }
+  .inputClassDialog {
+    display: flex;
+    word-break: break-all;
+    white-space: normal;
+    text-overflow: ellipsis;
+    justify-content: space-between;
+    &.item-3 {
+      justify-content: space-between;
+    }
+    .inputClass-item{
+      width: 272px;
+      box-sizing: border-box;
+    }
+
+      .el-select {
+        width: 100%;
+      }
+
+      .el-form-item__label {
+        font-size: 14px;
+        color: #758fac;
+      }
+
+      .el-input__inner {
+        border: 1px solid #e9eef5;
+        border-radius: 3px;
+      }
+           .el-input-number {
+             width: 100%;
+           }
+
+  }
+
